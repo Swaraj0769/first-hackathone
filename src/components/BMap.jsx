@@ -65,23 +65,35 @@ const BMap = () => {
       description: 'It is a picnic spot with reasonable facilities. There is a good restaurant here which is operated by MP Tourism. It gets crowded on holidays.'
     },
     {
-      image: 'https://picsum.photos/600/600?grayscale',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/4b/be/3b/temple-on-the-hillock.jpg?w=800&h=600&s=1',
       link: 'https://google.com/',
-      title: 'Item 4',
-      description: ''
+      title: 'Manuabhan Tekri',
+      description: 'Nice place, situated at mountain, from the top we can see all Bhopal city, there is a rope way also, there is a jain temple also must visit place'
     },
     {
-      image: 'https://picsum.photos/600/600?grayscale',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/15/e6/94/0e/20181227-170231-largejpg.jpg?w=1000&h=800&s=1',
       link: 'https://google.com/',
-      title: 'Item 4',
-      description: ''
+      title: 'People\'s Mall',
+      description: 'A one stop destination for all celebrations events & film shoot Entertainment Multiplex 7D Drive Inn Cinema Scary house Gaming zone Water Amusement Park Adventure sports wall climbing '
     },
     {
-      image: 'https://picsum.photos/600/600?grayscale',
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/df/01/a0/view-from-front.jpg?w=1000&h=-1&s=1',
       link: 'https://google.com/',
-      title: 'Item 4',
-      description: ''
+      title: 'Birla Mandir',
+      description: 'Visiting the shrines were very nostalgic. Visit to this temple will certainly not disappoint anyone.'
     },
+    {
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0f/1b/7c/5a/temple-with-its-beauty.jpg?w=1000&h=-1&s=1',
+      link: 'https://google.com/',
+      title: 'Lakshmi Narayana Temple',
+      description: 'Temple is So nice and beautiful,temple is cleane and big,construction of temple is good,place is nice and cool.'
+    },{
+      image: 'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/44/a8/fe/kolar-dam.jpg?w=1000&h=-1&s=1',
+      link: 'https://google.com/',
+      title: 'Kolar Dam',
+      description: 'Its a huge dam, near Bhopal. But unless you have access to the Kolar Guest House, you may not find any picnic spot. Though there are resorts around the area, find out their activities, rates and availability.'
+    },
+    
   ];
 
   return (
