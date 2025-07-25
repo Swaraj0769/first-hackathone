@@ -37,7 +37,7 @@ const Carousel = ({ images, autoPlay = true, interval = 3000 }) => {
               className={`carousel-slide ${index === currentIndex ? 'active' : ''}`}
             >
               <img src={image.image} alt={image.alt} />
-              <div className='w-25 h-10 leading-none  border-2  border-white rounded-lg absolute flex justify-center items-center b-10 text-black '>
+              <div className='w-25 h-10 leading-none  border-2 mt-140 border-white rounded-lg absolute flex justify-center items-center b-10 text-white '>
             {image.name}
           </div>
             </div>

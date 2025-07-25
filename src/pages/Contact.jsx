@@ -64,7 +64,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen flex justify-center items-center bg-gradient-to-r from-indigo-600 to-purple-600 p-4">
+    <div className="min-h-screen flex justify-center items-center bg-gradient-to-br from-blue-400 to-gray-500 p-4">
       <div className="w-full max-w-2xl bg-white/10 backdrop-blur-lg rounded-xl border border-white/20 p-8 text-white shadow-lg">
         <h2 className="text-3xl font-bold text-center mb-6">Contact Us 📬</h2>
 

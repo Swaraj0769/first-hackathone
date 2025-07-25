@@ -36,7 +36,7 @@ const teamMembers = [
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-gray-50 text-gray-800">
+    <div className="min-h-screen absolute z-1000 bg-gray-50 text-gray-800">
       {/* Hero Section */}
       <section className="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-24 text-center">
         <div className="container mx-auto px-6">
@@ -55,12 +55,15 @@ const About = () => {
           <div className="lg:w-1/2 mb-8 lg:mb-0">
             <h2 className="text-4xl font-bold text-gray-900 mb-6">Our Story</h2>
             <p className="text-lg leading-relaxed mb-4">
-              Founded in 20XX by a group of avid globetrotters, [Your Company Name] began with a simple yet powerful idea: to make authentic and enriching travel accessible to everyone. The company noticed a gap in the market for truly personalized itineraries that went beyond typical tourist traps.
+            Do you plan your trips around food? Where and what to eat? With visits to museums, villas, and monuments squeezed in before the next meal? Us too! But if you are like us, you also realize that food is not an end in itself. The entire experience of eating in a country not your own - getting there, ordering, talking to the people who prepare, sell, or grow the food - is just as important as what is in your belly. There is a cultural import to every bite we eat.</p>
+            <p className="text-lg leading-relaxed mb-4">
+            Food may be the map you use to get to a specific place, but we believe it is also the key that opens up an entire world. Nowhere is this more true than in Italy. All roads may lead to Rome, but we would like to invite you to follow us on the roads that lead out of it. To explore the dishes, customs, and recipes in out-of-the-way regions, towns, villages, and homes that remain off of most travelers' radar. More importantly, we would like to introduce you to the people who keep these traditions alive.
             </p>
             <p className="text-lg leading-relaxed">
-              From humble beginnings planning bespoke adventures for friends and family, the company has grown into a trusted name in the tours and travels industry, all while retaining a core belief in the power of exploration and discovery.
-            </p>
-          </div>
+            Our friends and colleagues have generously agreed to open their homes and businesses and to share their knowledge (and cheese and pasta and bread and wine!) by inviting us to gather around the table.</p>
+          
+            <p className="text-lg leading-relaxed">Our trips adopt the culture of food as our compass because we think this is not only the most delicious way to travel but also the most fulfilling. When we learn about a product like freshly made Sicilian sheep’s milk ricotta, for instance, we are learning about something that reveals a past and current history that exists only in one very specific place. It is this sense of place that we would like to share and that you will take home with you.</p>
+            </div>
           <div className="lg:w-1/2">
             <img
               src="https://via.placeholder.com/600x400/87CEEB/FFFFFF?text=Our+Story+Image" // Replace with a relevant image
