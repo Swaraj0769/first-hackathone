@@ -1,0 +1,16 @@
+@media (max-width: 768px) {
+    .content-container {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .content-container img {
+        width: 100%;
+    }
+    .content-container h1 {
+        font-size: 24px;
+    }
+    .content-container p {
+        font-size: 16px;
+    }
+}
