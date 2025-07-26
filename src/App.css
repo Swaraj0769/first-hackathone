@@ -1,7 +1,12 @@
+
+/* In index.css or App.css */
+html {
+  scroll-behavior: smooth;
+}
+
 /* src/App.css */
 .App {
     font-family: sans-serif;
     text-align: center;
     margin-top: 20px;
   }
-  
