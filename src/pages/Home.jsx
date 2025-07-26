@@ -78,11 +78,11 @@ const Home = () => {
   return (
     <div className='w-full relative min-h-screen bg-gradient-to-br from-[#f8fafc] to-[#e0f2fe] text-gray-800' >
       <CursorFollower />
+      <BMap />
+      <Travel />
       <div className="App w-[100%] h-screen overflow-hidden bg-zinc-500 justify-center flex items-center">
       <Carousel images={sliderData} autoPlay={true} interval={2000} />
       </div>
-      <Travel />
-      <BMap />
       <Footer />
       
       {/* <CustomMap /> */}

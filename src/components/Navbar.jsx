@@ -64,7 +64,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-      <div className="w-full p-3 flex z-990 absolute  gap-2">
+      <div className="w-full stick-0 p-3 flex z-990 absolute  gap-2">
           
         <div className="flex items-center justify-between w-full">
           <img
@@ -72,7 +72,7 @@ const Navbar = () => {
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0gCt_gTM9o8wLYX9uTFg15qyDtZo3z5MIoA&s"
             alt=""
           />
-          <button onClick={() => setOpen(!open)}>☰</button>
+          <button className="text-white" onClick={() => setOpen(!open)}>☰</button>
         </div>
         <nav style={{ display: open ? "block" : "none" } }>
           <ul className="flex flex-col z-999 border-2 w-full rounded-lg p-3 hover:bg-amber-800 border-black right-0 bg-amber-50 absolute gap-2">

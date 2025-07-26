@@ -28,7 +28,7 @@ const Footer = () => {
         </div>
       </div>
 
-      <p className='text-sm'>© 2023 Your Company Name. All rights reserved.</p>
+      <p className='text-sm'>© 2023 Via Rosa India. All rights reserved.</p>
     </div>
   )
 }

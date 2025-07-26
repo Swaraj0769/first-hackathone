@@ -45,7 +45,7 @@ const Travel = () => {
             The Red Fort is a historic fort in the city of Delhi, India, which served as the main residence of the Mughal Emperors. Built in 1639 by Shah Jahan, it is a UNESCO World Heritage Site known for its red sandstone walls and stunning Mughal architecture.
           </p>
         </div>
-        <div className="w-32 sm:w-40 md:w-48 transform rotate-170 sm:rotate-170 md:rotate-0 mt-6 md:mt-0">
+        <div className="w-32 sm:w-40 md:w-48 ml-32 transform rotate-140 sm:rotate-170 md:rotate-0 mt-6 md:mt-0">
           <img
             src="https://img.icons8.com/?size=100&id=bhZVXuqz7qLV&format=png&color=000000"
             alt="Icon"
