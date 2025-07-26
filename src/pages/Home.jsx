@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 // import {sliderData}  from '../components/Slider';
+import VideoCanvas from '../components/VideoCanvas';
 import { useNavigate } from "react-router-dom";
 import gsap from "gsap";
 import Carousel from '../components/Carousel';
@@ -80,9 +81,13 @@ const Home = () => {
       <CursorFollower />
       <BMap />
       <Travel />
-      <div className="App w-[100%] h-screen overflow-hidden bg-zinc-500 justify-center flex items-center">
+      {/* <div className="App w-[100%] h-screen overflow-hidden bg-zinc-500 justify-center flex items-center">
       <Carousel images={sliderData} autoPlay={true} interval={2000} />
-      </div>
+      </div> */}
+      <div>
+      <VideoCanvas src="./src/assets/travelling.mp4" />
+      
+    </div>
       <Footer />
       
       {/* <CustomMap /> */}
