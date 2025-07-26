@@ -1,5 +1,12 @@
 {
   "rewrites": [
-    { "source": "/index.html", "destination": "/" }
+    { "source": "/index.html", "destination": "/" },
+    { "source": "/Product.jsx", "destination": "/product" },
+    { "source": "/About.jsx", "destination": "/about" },
+    { "source": "/Contact.jsx", "destination": "/contact" },
+    { "source": "/Home.jsx", "destination": "/" },
+    { "source": "/SignIn.jsx", "destination": "/sign-in" },
+    { "source": "/SignUp", "destination": "/signup" },
+    { "source": "/ForgetPassword.jsx", "destination": "/forgot-password" }
   ]
 }
