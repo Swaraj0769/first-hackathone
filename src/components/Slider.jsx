@@ -1,5 +1,5 @@
 // src/sliderData.js
-export const sliderData = [
+ const sliderData = [
   {
     image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gulmarg_in_Winter.jpg",
     name: "Gulmarg, Kashmir"

@@ -1,9 +1,10 @@
 import React from 'react';
 import './Travel.css';
+import PixelCard from '../Animations/PixelCard';
 
 const Travel = () => {
   return (
-    <div className="w-full min-h-screen bg-zinc-500 flex flex-col items-center justify-center px-4 py-10 gap-16">
+    <div className="w-full min-h-screen bg-zinc-500 flex flex-col items-center justify-center px-4 py-5 gap-16">
       
       <h1 className="text-white text-3xl sm:text-4xl md:text-5xl font-bold mb-10">
         Adventure Time
@@ -24,12 +25,15 @@ const Travel = () => {
             className="w-full object-contain"
           />
         </div>
-        <div className="w-full md:w-94 h-auto">
+        <div className="w-full md:w-64 h-auto">
+          <PixelCard  variant="yellow">
+  // your card content (use position: absolute)
           <img
-            src="../assets/amritsar.jpg"
+            src="./src/assets/golden.png"
             alt="Golden Temple"
-            className="w-full h-full object-cover rounded-md shadow-md"
+            className="w-full h-auto object-cover absolute rounded-md shadow-md"
           />
+</PixelCard>
         </div>
       </div>
 
@@ -48,12 +52,16 @@ const Travel = () => {
             className="w-full object-contain"
           />
         </div>
+        
         <div className="w-full md:w-64 h-auto">
+          <PixelCard variant="blue">
+  // your card content (use position: absolute)
           <img
-            src="../assets/redfort.jpg"
+            src="./src/assets/fort.png"
             alt="Red Fort"
-            className="w-full h-full object-cover rounded-md shadow-md"
+            className="w-full h-auto absolute rounded-md shadow-md"
           />
+</PixelCard>
         </div>
       </div>
     </div>

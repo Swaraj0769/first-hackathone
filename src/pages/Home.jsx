@@ -1,5 +1,5 @@
 import React, { useEffect, useRef } from 'react'
-import {sliderData}  from '../components/Slider';
+// import {sliderData}  from '../components/Slider';
 import { useNavigate } from "react-router-dom";
 import gsap from "gsap";
 import Carousel from '../components/Carousel';
@@ -8,52 +8,72 @@ import BMap from '../components/BMap';
 import CursorFollower from '../components/CursorFollower';
 import Footer from '../components/Footer';
 
-const services = [
+// src/sliderData.js
+const sliderData = [
   {
-    id: "1",
-    title: "Custom Tour Packages",
-    description: "Tailored itineraries to match your preferences and interests.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2f/Gulmarg_in_Winter.jpg",
+    name: "Gulmarg, Kashmir"
   },
   {
-    id: "2",
-    title: "Hotel & Accommodation Booking",
-    description: "Curated stays from luxury hotels to countryside villas.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/d/da/Taj-Mahal.jpg",
+    name: "Taj Mahal, Agra"
   },
   {
-    id: "3",
-    title: "Transportation Services",
-    description: "Private transfers, car rentals, and more across Italy.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/2/2a/Om_Beach_Gokarna.jpg",
+    name: "Gokarna, Karnataka"
   },
   {
-    id: "4",
-    title: "Guided Tours",
-    description: "Expert-led tours of Italy's most iconic destinations.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/b/b0/Dal_Lake_Srinagar.jpg",
+    name: "Srinagar, Kashmir"
   },
   {
-    id: "5",
-    title: "Cultural Experiences",
-    description: "Wine tastings, cooking classes, and more authentic experiences.",
+    image: "https://upload.wikimedia.org/wikipedia/commons/7/7b/Radhanagar_beach_Havelock_Island.jpg",
+    name: "Havelock, Andaman"
   },
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/3/3a/Backwaters_in_Alleppey.jpg",
+    name: "Alleppey, Kerala"
+  },
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/4/4d/Baga_Beach_Goa.jpg",
+    name: "Goa"
+  },
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/8/8f/Kavaratti_Lakshadweep.jpg",
+    name: "Lakshadweep"
+  },
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f7/Ooty_Lake_-_panoramio.jpg",
+    name: "Ooty, Tamil Nadu"
+  },
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f9/Pondicherry_Rock_Beach.jpg",
+    name: "Pondicherry, Tamil Nadu"
+  },
+  {
+    image: "https://upload.wikimedia.org/wikipedia/commons/e/e1/Manali_view.jpg",
+    name: "Manali, Himachal Pradesh"
+  }
 ];
+
+
 
 
 const Home = () => {
 
-  const {images, name} = sliderData;
+  // const navigate = useNavigate();
+  // const cardRefs = useRef([]);
 
-  const navigate = useNavigate();
-  const cardRefs = useRef([]);
+  // useEffect(() => {
+  //   gsap.from(cardRefs.current, {
+  //     opacity: 0,
+  //     y: 50,
+  //     duration: 0.1,
+  //     stagger: 0.2,
+  //     ease: "power3.out",
+  //   });
 
-  useEffect(() => {
-    gsap.from(cardRefs.current, {
-      opacity: 0,
-      y: 50,
-      duration: 0.1,
-      stagger: 0.2,
-      ease: "power3.out",
-    });
-
-  }, []);
+  // }, []);
 
   return (
     <div className='w-full relative min-h-screen bg-gradient-to-br from-[#f8fafc] to-[#e0f2fe] text-gray-800' >

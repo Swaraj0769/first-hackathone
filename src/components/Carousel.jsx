@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import './Carousel.css'; // Make sure to create this CSS file
-import {sliderData} from '../components/Slider';
+// import {sliderData} from '../components/Slider';
 
 const Carousel = ({ images, autoPlay = true, interval = 3000 }) => {
   const [currentIndex, setCurrentIndex] = useState(0);

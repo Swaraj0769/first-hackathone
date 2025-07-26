@@ -6,7 +6,7 @@ const Navbar = () => {
   const windowNavBar = () => {
     return (
       <>
-        <div className="w-[70vw] bg-zinc-300 rounded-lg m-3 p-3 z-990 absolute ml-50 justify-between flex items-center">
+        <div className="w-[70vw] bg-gray-300 rounded-lg m-3 p-3 z-990 absolute ml-50 justify-between flex items-center">
           <div className="flex gap-2 flex-col justify-between w-70">
             <div className="flex gap-2 items-center justify-center w-20">
               <a href="https://www.instagram.com/viarosaitaly/?hl=en">
