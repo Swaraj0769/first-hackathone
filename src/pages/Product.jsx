@@ -1,6 +1,7 @@
 // src/pages/Services.jsx
 import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import Footer from '../components/Footer';
 
 const services = [
   {
@@ -113,6 +114,7 @@ const Product = () => {
           ))}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

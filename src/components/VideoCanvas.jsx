@@ -51,14 +51,14 @@ const VideoCanvas = ({ src }) => {
   }, []);
 
   return (
-    <div ref={containerRef} className="h-[300vh] bg-gray-100 relative">
+    <div ref={containerRef} className=" lg:h-[300vh] bg-gray-100 relative">
       {/* Hidden video for seeking */}
       <video ref={videoRef} src={src} className="hidden" muted crossOrigin="anonymous" />
 
       {/* Canvas that shows the video */}
       <canvas
         ref={canvasRef}
-        className="sticky top-0 w-full h-auto max-w-8xl mx-auto shadow-lg"
+        className="sticky top-0 w-xl lg:w-full h-screen lg:h-auto max-w-8xl mx-auto shadow-lg"
       />
     </div>
   );

@@ -12,6 +12,7 @@
   "dependencies": {
     "@fortawesome/fontawesome-free": "^7.0.0",
     "@heroicons/react": "^1.0.6",
+    "@studio-freight/lenis": "^1.0.42",
     "@tailwindcss/vite": "^4.1.11",
     "cors": "^2.8.5",
     "dotenv": "^17.2.1",
